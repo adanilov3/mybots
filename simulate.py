@@ -5,7 +5,7 @@ import time
 physicsClient = p.connect(p.GUI)
 p.setAdditionalSearchPath(pybullet_data.getDataPath())
 
-simulationTime = 1000
+simulationTime = 10000
 p.setGravity(0,0,-9.8)
 planeId = p.loadURDF("plane.urdf")
 robotId = p.loadURDF("body.urdf")
