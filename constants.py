@@ -1,9 +1,9 @@
 #constants file for this project
 import numpy
 
-simulationTime = 1000
+simulationTime = 500
 gravity = -9.8
-timeSleep = 1/1000
+timeSleep = 1/5000
 pi = numpy.pi
 
 amplitude = -pi/4
