@@ -9,3 +9,5 @@ pi = numpy.pi
 amplitude = -pi/4
 frequency = 20
 phaseOffset = 0
+
+numberOfGenerations = 10
